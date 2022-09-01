@@ -13,12 +13,11 @@ function revealFacts(animeFact){
     card.className="existing-anime-facts"
     card.innerHTML=`
     <div class="anime-facts">
-        <h3>${animeFact.anime_name}</h3>
+        <h3 class="animeHeading">${animeFact.anime_name.toUpperCase()}</h3>
     </div>
         <img src= ${animeFact.anime_img}>
     
     `
     document.getElementById("existing_facts").appendChild(card)
-    console.log(card)
 }
 
