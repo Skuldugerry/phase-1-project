@@ -1,0 +1,8 @@
+body{
+    background-color: forestgreen;
+}
+#inputBox{
+    width: 50%;
+    font-style: italic;
+    font-family: Algerian, Helvetica, sans-serif ;
+}

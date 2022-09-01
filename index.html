@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phase 1 project</title>
+    <link href="./style.css" rel="stylesheet">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <h1>Anime Facts</h1>
+        <h2>New Anime Fact</h2>
+    <div>
+        <form id="searchBox" method="POST" action="#">
+            <label for="inputBox">Anime Fact:</label>
+            <input type="text" id="inputBox" placeholder="Attack on Titan" name="inputBox">
+            <input type="submit" value="Add Fact" class="submit">
+            <label for="image">Image URL:</label>
+            <input type="text" id="image" name="imageBox">
+            <input type="submit" value="Send" class="submit">
+        </form>
+    </div>
+    <div id="data">
+
+    </div>
+    <h2>Existing Anime Facts</h2>
+    <!--Anime facts here-->
+    <ul id="existing_facts">
+
+    </ul>
+    <script src="./data.js"></script>
+</body>
+</html>
