@@ -46,3 +46,10 @@ h2{
     border: 10px solid purple;
 
 }
+
+.deleteBtn{
+    background-color: rgba(255, 0, 0, 0.717);
+    color: antiquewhite;
+    padding-block-start: 10%;
+    box-sizing: border-box;
+}

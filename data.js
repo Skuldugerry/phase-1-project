@@ -9,7 +9,7 @@ function getAnimeFacts(){
     }
 getAnimeFacts()
 
-// show anime list on webPage
+// show anime list from API on webPage
 function revealFacts(animeFact){
     let card=document.createElement('li')
     card.className="existing-anime-facts"
