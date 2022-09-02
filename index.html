@@ -10,23 +10,20 @@
 </head>
 <body>
     <h1>Anime Gala</h1>
-        <div id="searchBoxBorder"></div>
         <h2>New Anime</h2>
-    <div>
-        <form id="searchBox" method="POST" action="#">
-            <label for="inputBox">Anime Fact:</label>
-            <input type="text" id="inputBox" placeholder="Attack on Titan" name="inputBox">
-            <input type="submit" value="Add Fact" class="submit">
-            <label for="image">Image URL:</label>
-            <input type="text" id="image" name="imageBox">
-            <input type="submit" value="Send" class="submit">
-        </form>
-    </div>
-    <div id="data">
+    <form method="post" action="https://anime-facts-rest-api.herokuapp.com/api/v1">
+            <label for="animeName">Name :</label>
+            <input id="animeName" type="text">
+            <input type="submit" value="Add Anime Name" class="addButton"><br>
+            <label for="img_url">Image Address :</label>
+            <input type="text" id="img_url"><br>
+            <input type="submit" value="Add" class="addButton"> 
+    </form>
+        <div id="data">
 
     </div>
     <h2>Existing Anime Facts</h2>
-    <!--Anime facts here-->
+    <!--Anime here-->
     <ul id="existing_facts">
 
     </ul>
