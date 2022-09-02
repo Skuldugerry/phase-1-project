@@ -24,6 +24,11 @@
       "name": "Pacific Rim The Black",
       "ImageURL": "https://i.pinimg.com/474x/82/85/05/8285050f87bf00ef725630a1025e8c4f.jpg",
       "id": 5
+    },
+    {
+      "name": "Devilman: crybaby",
+      "ImageURL": "https://i.pinimg.com/564x/20/4e/75/204e756469f05f7af45b79e601238fc4.jpg",
+      "id": 6
     }
   ]
 }

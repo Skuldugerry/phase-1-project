@@ -21,6 +21,7 @@ function revealFacts(animeFact){
     
     `
     document.getElementById("existing_facts").appendChild(card)
+
 }
 
 //  Event listner on add button for filling both Anime Name and Image URL
@@ -31,6 +32,7 @@ document.querySelector('form').addEventListener('submit',(e)=>{
         name:e.target.animeName.value,
         ImageURL:e.target.img_url.value,
     }
+document.querySelector('form').reset()
     addAnime(newAnime)
 }
 )})
