@@ -21,6 +21,7 @@ function revealFacts(animeFact){
     
     `
     document.getElementById("existing_facts").appendChild(card)
+    card.reset()
 }
 
 //  Event listner on add button for filling both Anime Name and Image URL
@@ -37,7 +38,7 @@ document.querySelector('form').addEventListener('submit',(e)=>{
 
 // Clicking Add button on anime Name and ImageURL adds details to server(POST request)
 function addAnime(newAnime){
-    fetch("https://anime-facts-rest-api.herokuapp.com/api/v1",{
+    return fetch("http://localhost:3000/anime",{
         method:"POST",
         headers:{
             "Content-Type":"Application/json"
@@ -47,33 +48,3 @@ function addAnime(newAnime){
     .then(res=>res.json())
     .then((anime)=>console.log(anime))
 }
-
-// Add Anime Name button event listener
-document.querySelector('form').addEventListener('submit',((e)=>{
-    let animeName= e.target.animeName.value
-    addAnimeName(animeName)}))
-
-//  POST Anime Name to server
-function addAnimeName(animeName){
-    fetch("https://anime-facts-rest-api.herokuapp.com/api/v1",{
-        method:"POST",
-        headers: {
-            "Content-Type":"Application/json"
-        },
-        body:JSON.stringify(animeName)
-    })
-    .then((res)=>res.json())
-    .then((newAnimeName)=>showAnimeName(newAnimeName))
-}
-
-//  show Anime Name on page
-function showAnimeName(newAnimeName){
-    let sentry=document.createElement('ul')
-    sentry.innerHTML=`
-        <li>${newAnimeName}</li>
-        <img alt="${newAnimeName}"
-    `
-
-    console.log(sentry)
-}
-showAnimeName()

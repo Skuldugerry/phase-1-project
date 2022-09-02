@@ -1,0 +1,24 @@
+{
+  "anime": [
+    {
+      "name": "Fire Force",
+      "ImageURL": "https://img1.ak.crunchyroll.com/i/spire1/b053257293018b91e02867f4eba36ba71653279955_main.jpg",
+      "id": 1
+    },
+    {
+      "name": "The Seven Deadly Sins",
+      "ImageURL": "https://i.pinimg.com/564x/8c/5a/ad/8c5aadb80bafbe2d0ddee7da9b1580f9.jpg",
+      "id": 2
+    },
+    {
+      "name": "One punch Man",
+      "ImageURL": "https://i.pinimg.com/474x/50/b2/92/50b292c5a84395eabb4db11b3dfb6925.jpg",
+      "id": 3
+    },
+    {
+      "name": "Castlevanea",
+      "ImageURL": "https://i.pinimg.com/564x/cd/06/37/cd0637a1c804a2591ef05cf51ecc5747.jpg",
+      "id": 4
+    }
+  ]
+}
