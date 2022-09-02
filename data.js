@@ -21,7 +21,6 @@ function revealFacts(animeFact){
     
     `
     document.getElementById("existing_facts").appendChild(card)
-    card.reset()
 }
 
 //  Event listner on add button for filling both Anime Name and Image URL

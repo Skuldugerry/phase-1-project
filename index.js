@@ -9,8 +9,10 @@ returnData()
 function showNewAnime(newAnime){
     let sentry=document.createElement('li')
     sentry.innerHTML=`
-    <h3 class="animeHeading">${newAnime.name}</h3>
-    <img src="${newAnime.ImageURL}">
+    <div class="images">
+        <h3 class="animeHeading">${newAnime.name}</h3>
+        <img src="${newAnime.ImageURL}">
+    </div>
     `
     console.log(document.querySelector('#data').appendChild(sentry))
 }

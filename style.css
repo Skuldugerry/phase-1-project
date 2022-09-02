@@ -40,4 +40,9 @@ h1{
 }
 h2{
     color: brown;
+    font-family: 'Algerian', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.images{
+    border: 10px solid purple;
+
 }
