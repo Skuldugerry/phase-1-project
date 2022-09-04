@@ -31,7 +31,3 @@ function showNewAnime(newAnime){
         .then((anime)=>console.log(anime))
     })
 }
-
-function deleteAnime(){
-
-}
